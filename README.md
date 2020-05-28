@@ -3,7 +3,7 @@ Sample FastHTTP application for AWS Elastic Beanstalk
 
 build.sh should executable
 
-`chmod +x filename.sh`
+`chmod +x build.sh`
 
 # Install Elastic Beanstalk command line interface
 
