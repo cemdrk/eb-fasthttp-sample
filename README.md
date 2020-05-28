@@ -31,4 +31,4 @@ source ~/.profile
 
 # Deploy via AWS Management Console
 
-<a title="Deploy to AWS" href="https://console.aws.amazon.com/elasticbeanstalk/home?region=eu-central-1#/newApplication?applicationName=FastHTTPServer&platform=Go&tierName=WebServer&sourceBundleUrl=https://s3.amazonaws.com/eb-samples-eu-central-1/eb-fasthttp-sample.zip" target="_blank"><img src="http://d0.awsstatic.com/product-marketing/Elastic%20Beanstalk/deploy-to-aws.png" height="40"></a>
+<a title="Deploy to AWS" href="https://console.aws.amazon.com/elasticbeanstalk/home?region=eu-central-1#/newApplication?applicationName=FastHTTPServer&platform=Go&tierName=WebServer&sourceBundleUrl=https://eb-samples-eu-central-1.s3.eu-central-1.amazonaws.com/eb-fasthttp-sample.zip" target="_blank"><img src="http://d0.awsstatic.com/product-marketing/Elastic%20Beanstalk/deploy-to-aws.png" height="40"></a>
