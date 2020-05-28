@@ -1,25 +1,30 @@
 # eb-fasthttp-sample
 Sample FastHTTP application for AWS Elastic Beanstalk
 
+build.sh should executable
 
-chmod +x build.sh
+`chmod +x filename.sh`
 
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+# Install Elastic Beanstalk command line interface
 
-sudo apt-get install python3.7
+`curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"`
 
-curl -O https://bootstrap.pypa.io/get-pip.py
+`sudo apt-get install python3.7`
 
-python3.7 get-pip.py --user
+`curl -O https://bootstrap.pypa.io/get-pip.py`
 
-pip install awsebcli --upgrade --user
+`python3.7 get-pip.py --user`
+
+`pip install awsebcli --upgrade --user`
 
 export PATH=~/.local/bin/:$PATH
 
 source ~/.profile
 
-eb init
+# Initialize and deploy
 
-eb create
+`eb init`
 
-eb deploy
+`eb create`
+
+`eb deploy`
